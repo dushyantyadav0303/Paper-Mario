@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://phin4ckxyfjm"]
+
+[ext_resource type="Texture2D" uid="uid://b6kchhcwv1tnp" path="res://assest/Environment ( With Animations )/Burning Lava/burninglava1.png" id="1_10wrr"]
+[ext_resource type="Texture2D" uid="uid://cnu50qjpbs0ph" path="res://assest/Environment ( With Animations )/Burning Lava/burninglava2.png" id="2_theev"]
+[ext_resource type="Texture2D" uid="uid://c3wnhyl4630xw" path="res://assest/Environment ( With Animations )/Burning Lava/burninglava3.png" id="3_3l77w"]
+[ext_resource type="Texture2D" uid="uid://bwnsya4p2mnlj" path="res://assest/Environment ( With Animations )/Burning Lava/burninglava4.png" id="4_ajlmw"]
+[ext_resource type="Texture2D" uid="uid://28kuww05rdgc" path="res://assest/Environment ( With Animations )/Burning Lava/burninglava5.png" id="5_ia3m4"]
+[ext_resource type="Texture2D" uid="uid://bc20eceo1mahl" path="res://assest/Environment ( With Animations )/Burning Lava/burninglava6.png" id="6_tuqhi"]
+[ext_resource type="Texture2D" uid="uid://3j8dkiwno7pq" path="res://assest/Environment ( With Animations )/Burning Lava/burninglava7.png" id="7_jwixg"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d0vl4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_10wrr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_theev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_3l77w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ajlmw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ia3m4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_tuqhi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jwixg")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=1474284444]
+position = Vector2(38, -1.9999998)
+scale = Vector2(3.8571427, 0.390625)
+sprite_frames = SubResource("SpriteFrames_d0vl4")
+autoplay = "default"
+frame_progress = 0.64923674
