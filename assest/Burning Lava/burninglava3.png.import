@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3wnhyl4630xw"
-path="res://.godot/imported/burninglava3.png-071b53e681ff658caf93889466f98730.ctex"
+path="res://.godot/imported/burninglava3.png-9045afcae8b28edad3049cbaae16e6cb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assest/Environment ( With Animations )/Burning Lava/burninglava3.png"
-dest_files=["res://.godot/imported/burninglava3.png-071b53e681ff658caf93889466f98730.ctex"]
+source_file="res://assest/Burning Lava/burninglava3.png"
+dest_files=["res://.godot/imported/burninglava3.png-9045afcae8b28edad3049cbaae16e6cb.ctex"]
 
 [params]
 
